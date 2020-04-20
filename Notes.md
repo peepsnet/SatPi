@@ -106,6 +106,7 @@ sudo service apache2 restart
 
 
 ## Other Comamnds I ran
+```
 sudo systemctl enable ssh
 sudo systemctl start ssh
 passwd
@@ -115,7 +116,7 @@ sudo nano /etc/ssh/sshd_config
 /etc/init.d/ssh restart
 sudo apt install phpmyadmin -y
 webmin for Debian: http://www.webmin.com/deb.html
-
+```
 
 ## Other notes
 Raspberry pi buster lite*
