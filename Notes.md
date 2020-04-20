@@ -30,6 +30,8 @@ sudo apt install -y git predict ntp cmake libusb-1.0 sox at bc libxft2 wxtoimg
 ```
 wxtomig
 ```
+## Get your lat/long
+https://www.latlong.net/
 
 ## Edit with your values
 Note: West is Negetive here
@@ -52,11 +54,17 @@ wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.db
 wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.tle
 wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.qth
 ```
-
-## Run Predict and edit Ground Station
+## Run Predict and edit Ground Station [G]
 Note: West is POSITIVE here!
 ```
 predict
+```
+
+## Update Predict TLEs
+Although not needed I did it anyway so I could use the GUI.
+https://celestrak.com/NORAD/elements/
+```
+wget https://celestrak.com/NORAD/elements/noaa.txt -O predict.tle
 ```
 
 ## Install this git
