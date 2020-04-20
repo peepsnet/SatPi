@@ -39,9 +39,9 @@ Note: West is Negetive here
 nano ~/.wxtoimgrc
 ```
 ```
-Latitude: 26.07
-Longitude: -80.21
-Altitude: 15
+Latitude: 26.129299
+Longitude: -80.359912
+Altitude: 4
 ```
 
 ## Fix Predict startup
