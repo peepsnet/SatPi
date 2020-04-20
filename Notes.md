@@ -32,6 +32,7 @@ wxtomig
 ```
 
 ## Edit with your values
+Note: West is Negetive here
 ```
 nano ~/.wxtoimgrc
 ```
@@ -52,15 +53,16 @@ wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.tle
 wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.qth
 ```
 
+## Run Predict and edit Ground Station
+Note: West is POSITIVE here!
+```
+predict
+```
+
 ## Install this git
 ```
 cd ~/
 git clone https://github.com/peepsnet/SatPi.git
-```
-
-## If wxtoimg fails to install with apt
-```
-sudo apt install ~/SatPi/software/wxtoimg-armhf-2.11.2-beta.deb
 ```
 
 ## install rtl-srd
@@ -78,6 +80,12 @@ cd ~
 sudo cp ./rtl-sdr/rtl-sdr.rules /etc/udev/rules.d/
 sudo reboot
 ```
+## If wxtoimg fails to install with apt
+```
+sudo apt install ~/SatPi/software/wxtoimg-armhf-2.11.2-beta.deb
+```
+
+
 
 ## Other Comamnds I ran
 sudo systemctl enable ssh
