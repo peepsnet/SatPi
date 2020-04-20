@@ -93,20 +93,11 @@ sudo reboot
 sudo apt install ~/SatPi/software/wxtoimg-armhf-2.11.2-beta.deb
 ```
 ##  Install Apache + MySQL + PHP7.4 (LAMP Server)
-``
+```
 sudo apt install apache2 -y
 sudo apt install php7.4 -y
 sudo apt install mariadb-server php-mysql -y
 ```
-
-* You will be asked Enter current password for root (type a secure password): press Enter
-* Type in Y and press Enter to Set root password
-* Type in a password at the New password: prompt, and press Enter. Important: remember this root password, as you will need it later
-* Type in Y to Remove anonymous users
-* Type in Y to Disallow root login remotely
-* Type in Y to Remove test database and access to it
-* Type in Y to Reload privilege tables now
-
 ## Restart Apache2
 ```
 sudo service apache2 restart
