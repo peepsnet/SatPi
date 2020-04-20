@@ -35,7 +35,22 @@ wxtomig
 ```
 nano ~/.wxtoimgrc
 ```
+```
+Latitude: 26.07
+Longitude: -80.21
+Altitude: 15
+```
 
+## Fix Predict startup
+For me this failed to run and was stuck in a loop
+Here is the workaround I posted to the Repository: https://github.com/kd2bd/predict/issues/8
+```
+mkdir ~/.predict
+cd ~/.predict
+wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.db
+wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.tle
+wget https://raw.githubusercontent.com/kd2bd/predict/master/default/predict.qth
+```
 
 ## Install this git
 ```
