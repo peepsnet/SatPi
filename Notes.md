@@ -95,7 +95,7 @@ sudo apt install ~/SatPi/software/wxtoimg-armhf-2.11.2-beta.deb
 ##  Install Apache + MySQL + PHP7.4 (LAMP Server)
 ```
 sudo apt install apache2 -y
-sudo apt install php7.4 -y
+sudo apt install php7.3 libapache2-mod-php7.3 php7.3-mysql php7.3-cli php7.3-common -y
 sudo apt install mariadb-server php-mysql -y
 ```
 ## Restart Apache2
@@ -119,22 +119,22 @@ webmin for Debian: http://www.webmin.com/deb.html
 ```
 
 ## Other notes
-Raspberry pi buster lite*
-wxtoinmg https://wxtoimgrestored.xyz/
-rtl_sdr https://github.com/rtlsdrblog/rtl-sdr
-predict https://github.com/kd2bd/predict
-sox apt install sox
-at
-bc
-and others
+* Raspberry pi buster lite*
+* wxtoinmg https://wxtoimgrestored.xyz/
+* rtl_sdr https://github.com/rtlsdrblog/rtl-sdr
+* predict https://github.com/kd2bd/predict
+* sox apt install sox
+ *at
+* bc
+* and others
 
 
 
 
 Isntall notes from 
-https://github.com/alonsovargas3/wx-ground-station
-https://github.com/reynico/raspberry-noaa
+* https://github.com/alonsovargas3/wx-ground-station
+* https://github.com/reynico/raspberry-noaa
 
 Other info
-https://github.com/martinber/noaa-apt
-https://github.com/opensatelliteproject/OpenSatelliteProject
+* https://github.com/martinber/noaa-apt
+* https://github.com/opensatelliteproject/OpenSatelliteProject
