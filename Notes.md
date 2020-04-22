@@ -141,3 +141,4 @@ Other info
 * http://kmkeen.com/rtl-demod-guide/2013-01-02-17-54-37-499.html
 * https://www.unix.com/man-page/debian/1/predict/
 * http://alloutput.com/amateur-radio/wxsat-reception/
+* https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
