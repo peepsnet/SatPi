@@ -116,6 +116,27 @@ sudo nano /etc/ssh/sshd_config
 /etc/init.d/ssh restart
 sudo apt install phpmyadmin -y
 webmin for Debian: http://www.webmin.com/deb.html
+
+
+echo "Installation de Kalibrate"
+sudo apt install build-essential libtool automake autoconf librtlsdr-dev libfftw3-dev
+git clone https://github.com/steve-m/kalibrate-rtl
+cd kalibrate-rtl
+./bootstrap && CXXFLAGS='-W -Wall -O3'
+./configure
+```
+### I modified /usr/local/lib/pkgconfig/librtlsdr.pc to the following to find the missing references:
+```
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+```
+```
+./bootstrap && CXXFLAGS='-W -Wall -O3'
+./configure
+make
+sudo make install
 ```
 
 ## Other notes
@@ -134,6 +155,9 @@ webmin for Debian: http://www.webmin.com/deb.html
 Isntall notes from 
 * https://github.com/alonsovargas3/wx-ground-station
 * https://github.com/reynico/raspberry-noaa
+* https://gist.github.com/iNem0o/6346423
+* https://github.com/steve-m/kalibrate-rtl/wiki/How-to-install
+* https://github.com/steve-m/kalibrate-rtl/issues/19
 
 Other info
 * https://github.com/martinber/noaa-apt
@@ -142,3 +166,4 @@ Other info
 * https://www.unix.com/man-page/debian/1/predict/
 * http://alloutput.com/amateur-radio/wxsat-reception/
 * https://unix.stackexchange.com/questions/21089/how-to-use-command-line-to-change-volume
+* 
