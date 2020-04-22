@@ -139,3 +139,4 @@ Other info
 * https://github.com/martinber/noaa-apt
 * https://github.com/opensatelliteproject/OpenSatelliteProject
 * http://kmkeen.com/rtl-demod-guide/2013-01-02-17-54-37-499.html
+* https://www.unix.com/man-page/debian/1/predict/
