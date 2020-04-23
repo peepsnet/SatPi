@@ -139,6 +139,15 @@ make
 sudo make install
 ```
 
+### Installed a Directry Lister from https://www.directorylister.com/
+
+```
+cd /var/www/html/wx
+wget https://github.com/DirectoryLister/DirectoryLister/releases/download/3.0.5/DirectoryLister-3.0.5.zip
+unzip DirectoryLister-3.0.5.zip
+sudo apt install php7.3-xml
+```
+
 ## Other notes
 * Raspberry pi buster lite*
 * wxtoinmg https://wxtoimgrestored.xyz/
