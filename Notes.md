@@ -147,6 +147,11 @@ wget https://github.com/DirectoryLister/DirectoryLister/releases/download/3.0.5/
 unzip DirectoryLister-3.0.5.zip
 sudo apt install php7.3-xml
 ```
+### Installed Image Galery
+```
+sudo apt -y install php7.3-gd
+```
+https://www.ubergallery.net/#simpleInstall
 
 ## Other notes
 * Raspberry pi buster lite*
