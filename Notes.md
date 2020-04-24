@@ -156,7 +156,7 @@ mkdir /var/www/html/wx/image/_files
 mkdir /var/www/html/wx/image/_files/cache
 /var/www/html/wx/image/_files/cache/files
 sudo chown -R www-data:www-data /var/www/html/wx/image/_files
-sudo service httpd restart
+sudo service apache2 restart
 ```
 
 ## Other notes
